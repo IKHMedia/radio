@@ -1,15 +1,15 @@
 /*
   # Only connect to this site and subdomains via HTTPS for the next one year
-  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  #Strict-Transport-Security: max-age=31536000; includeSubDomains
 
   # Block site from being framed with X-Frame-Options and CSP
   #Content-Security-Policy: frame-ancestors 'self'
 
   # X-Frame-Options tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking.
-  X-Frame-Options: allow-from *
+  #X-Frame-Options: allow-from *
 
   # Prevent browsers from incorrectly detecting non-scripts as scripts
-  X-Content-Type-Options: nosniff
+  #X-Content-Type-Options: nosniff
 
   # Don't load any resource type not explicitly enabled
   # Disable plugins like Flash or Silverlight
@@ -20,7 +20,7 @@
   # X-XSS-Protection: 1; mode=block
 
   # Referrer Policy is a new header that allows a site to control how much information the browser includes with navigations away from a document and should be set by all sites.
-  Referrer-Policy: strict-origin-when-cross-origin
+  #Referrer-Policy: strict-origin-when-cross-origin
 
 # Expire rules for static content
 
