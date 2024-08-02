@@ -17,7 +17,7 @@
   Content-Security-Policy: upgrade-insecure-requests;
 
   # X-XSS-Protection sets the configuration for the cross-site scripting filter built into most browsers.
-  X-XSS-Protection: 1; mode=block
+  # X-XSS-Protection: 1; mode=block
 
   # Referrer Policy is a new header that allows a site to control how much information the browser includes with navigations away from a document and should be set by all sites.
   Referrer-Policy: strict-origin-when-cross-origin
